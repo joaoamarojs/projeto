@@ -9,9 +9,9 @@ test('a subtração está correta', ()=>{
 });
 
 test('a multiplicação está correta', ()=>{
-    expect(calculadora.multiplicacao(1,2)).toBe(3);
+    expect(calculadora.multiplicacao(4,2)).toBe(8);
 });
 
 test('a divisão está correta', ()=>{
-    expect(calculadora.divisao(1,2)).toBe(3);
+    expect(calculadora.divisao(4,2)).toBe(2);
 });
